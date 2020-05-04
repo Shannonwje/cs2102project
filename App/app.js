@@ -11,6 +11,9 @@ var aboutRouter = require('./routes/about');
 var selectRouter = require('./routes/select'); // database connect
 /* ---------------------------- */
 
+require('dotenv').config();
+console.log("Your database connection: " + process.env.DATABASE_URL);
+
 var app = express();
 
 // view engine setup
