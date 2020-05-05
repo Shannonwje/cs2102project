@@ -5,19 +5,25 @@
 <table class="table">
 	<thead>
 		<tr>
-			<th scope="col">Uid</th>
-			<th scope="col">Name</th>
-			<th scope="col">Username</th>
+			<th scope="col">CustomerId</th>
+			<th scope="col">FirstName</th>
+			<th scope="col">LastName</th>
+			<th scope="col">AccumulatedPoints</th>
+			<th scope="col">UsedPoints</th>
+			<th scope="col">BeginMonth</th>
 		</tr>
 	</thead>
 	<tbody>
-<!-- 		<% for(var i=0; i< usersInfo.length; i++) { %>
+ 		<% for(var i=0; i< data.length; i++) { %>
 		<tr>
-			<td><%= usersInfo[i].uid%></td>
-			<td><%= usersInfo[i].name%></td>
-			<td><%= usersInfo[i].username%></td>
+			<td><%= data[i].customerid%></td>
+			<td><%= data[i].first_name%></td>
+			<td><%= data[i].last_name%></td>
+			<td><%= data[i].accumulatedpoints%></td>
+			<td><%= data[i].usedpoints%></td>
+			<td><%= data[i].beginmonth%></td>
 		</tr>
-		<% } %> -->
+		<% } %>
 	</tbody>
 </table>
 <%- include('partials/footer') %>
