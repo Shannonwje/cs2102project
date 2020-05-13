@@ -4,21 +4,10 @@ const PORT = process.env.PORT || 3000
 
 var flash = require('connect-flash');
 
-<<<<<<< HEAD
-require('dotenv').config();
-
-/* -------Page Routers-------- */
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var aboutRouter = require('./routes/about');
-var selectRouter = require('./routes/select'); // database connect
-/* ---------------------------- */
-=======
 var passport = require("passport");
 var request = require('request');
 
 var session = require("express-session");
->>>>>>> 337d41bd233d9f71dba1e8fa889d6dced198678b
 
 var app = express();
 
